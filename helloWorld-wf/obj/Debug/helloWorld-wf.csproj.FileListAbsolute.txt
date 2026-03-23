@@ -1,0 +1,9 @@
+C:\PLanguage\PL\Code-Practice\helloWorld-wf\bin\Debug\helloWorld-wf.exe.config
+C:\PLanguage\PL\Code-Practice\helloWorld-wf\bin\Debug\helloWorld-wf.exe
+C:\PLanguage\PL\Code-Practice\helloWorld-wf\bin\Debug\helloWorld-wf.pdb
+C:\PLanguage\PL\Code-Practice\helloWorld-wf\obj\Debug\helloWorld-wf.csproj.AssemblyReference.cache
+C:\PLanguage\PL\Code-Practice\helloWorld-wf\obj\Debug\helloWorld_wf.Properties.Resources.resources
+C:\PLanguage\PL\Code-Practice\helloWorld-wf\obj\Debug\helloWorld-wf.csproj.GenerateResource.cache
+C:\PLanguage\PL\Code-Practice\helloWorld-wf\obj\Debug\helloWorld-wf.csproj.CoreCompileInputs.cache
+C:\PLanguage\PL\Code-Practice\helloWorld-wf\obj\Debug\helloWorld-wf.exe
+C:\PLanguage\PL\Code-Practice\helloWorld-wf\obj\Debug\helloWorld-wf.pdb
