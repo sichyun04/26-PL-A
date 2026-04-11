@@ -1,0 +1,2 @@
+C:\PLanguage\hello-Friend\x64\Debug\hello-Friend.exe
+C:\PLanguage\PL\Code-Practice\hello-Friend\x64\Debug\hello-Friend.exe

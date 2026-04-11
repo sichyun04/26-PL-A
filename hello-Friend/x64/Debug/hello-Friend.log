@@ -1,0 +1,6 @@
+﻿  get-name.c
+C:\PLanguage\PL\Code-Practice\hello-Friend\get-name.c(10,2): warning C4047: 'return': 'char *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+  main.c
+C:\PLanguage\PL\Code-Practice\hello-Friend\main.c(9,6): warning C4047: '=': 'int'의 간접 참조 수준이 'char *'과(와) 다릅니다.
+  코드를 생성하고 있습니다...
+  hello-Friend.vcxproj -> C:\PLanguage\PL\Code-Practice\hello-Friend\x64\Debug\hello-Friend.exe
