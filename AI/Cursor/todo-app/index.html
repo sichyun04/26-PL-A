@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>할 일 목록</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="app">
+      <header class="header">
+        <h1 class="title">할 일</h1>
+        <p class="subtitle">새 할 일은 예정에 표시되고, 체크하면 완료 목록으로 옮겨집니다.</p>
+      </header>
+
+      <form class="add-form" id="add-form" autocomplete="off">
+        <label class="sr-only" for="todo-input">새 할 일</label>
+        <input
+          type="text"
+          id="todo-input"
+          class="todo-input"
+          placeholder="할 일을 입력하세요"
+          maxlength="500"
+        />
+        <div class="add-form-due">
+          <label class="due-label" for="todo-due">마감</label>
+          <input type="date" id="todo-due" class="due-input" />
+        </div>
+        <button type="submit" class="btn btn-primary">추가</button>
+      </form>
+
+      <div class="todo-board" aria-live="polite">
+        <section class="todo-section">
+          <h2 class="section-title">예정</h2>
+          <ul class="todo-list" id="todo-list-pending"></ul>
+          <p class="section-empty" id="pending-empty">예정된 할 일이 없습니다.</p>
+        </section>
+        <section class="todo-section">
+          <h2 class="section-title">완료</h2>
+          <ul class="todo-list" id="todo-list-done"></ul>
+          <p class="section-empty" id="done-empty">완료된 항목이 없습니다.</p>
+        </section>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
